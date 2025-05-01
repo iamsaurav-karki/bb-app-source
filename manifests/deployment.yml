@@ -18,13 +18,13 @@ spec:
       labels:
         app: block-buster
         api: downward
-        usage: global
+        u8-demo-image-automation-kustomization-gitsage: global
         env: dev
         version: 7.8.x
     spec:
       containers:
         - name: app
-          image: sauravkarki/block-buster-dev:7.8.0
+          image: siddharth67/block-buster-dev:7.8.0
           imagePullPolicy: Always
           resources:
             requests:
